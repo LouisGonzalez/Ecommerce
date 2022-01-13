@@ -1,0 +1,20 @@
+<body>
+    <div class="container">
+        <div class="card"  *ngFor="let product of products">
+          <div class="imgBx">
+            <img *ngIf="product.thumbImage" [src]="product.thumbImage">
+          </div>
+          <div class="contentBx">
+            <h2>{{product.title}}</h2>
+            <button (click)="showModal(product.id)">See more details</button>
+            <div class="color">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <button (click)="showCart(product.id)">Buy Now</button>
+          </div>
+        </div>       
+        <ed-product-details *ngIf="showIt" [id]="idProd"  (close)="closeModal($event)"></ed-product-details>
+    </div>
+</body>

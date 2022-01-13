@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6C2A9FCC-9243-60A1-340B-0B59B4254DCB" name="User">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-11 18:45:59 UTC</createdTime>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="E911EF21-F707-635C-AEB0-4A202F0D4AAF">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-11 18:46:11 UTC</createdTime>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="username" id="978EAECC-A1F3-A93B-C0A0-A87914C7C2FB">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-11 18:46:11 UTC</createdTime>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="AAC92D77-9981-DB90-93C5-8A8C4E41A0A0">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-11 18:46:11 UTC</createdTime>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lastname" id="58941D33-C108-513E-4711-DA8F272EC088">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-11 18:46:11 UTC</createdTime>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="FBF198A9-76D4-20A1-163B-8AE6DE1C572F">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-11 18:46:11 UTC</createdTime>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="AE2EF90D-A881-77A4-ECF8-DEFB49EA33DF">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-11 18:46:13 UTC</createdTime>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone" id="049AF356-7527-013E-DE5F-24E308C668DA">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-11 18:46:13 UTC</createdTime>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="extension" id="16C8C03C-6882-2724-3AA3-4AC57E5D3786">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-11 18:47:32 UTC</createdTime>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D50BF0DE-2946-EDB7-C300-87D2877D2199" name="User PK">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-11 18:46:22 UTC</createdTime>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E911EF21-F707-635C-AEB0-4A202F0D4AAF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

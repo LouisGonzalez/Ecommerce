@@ -1,0 +1,69 @@
+<div class="mosddal"  id='shopping-cart'>
+<mat-card>
+    <mat-card-content [style.overflow]="'auto'" [style.height.px]="'300'">
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <a class="fa fa-close" (click)="closeCart()" ><i><mat-icon>close</mat-icon></i></a>
+        <div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-info panel-shadow">
+
+                    <div class="panel-body"> 
+                        <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Description</th>
+                                <th>Qty</th>
+                                <th>Price</th>
+                                <th>Total</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let product of totalProducts; index as i; first as isfirst">
+                                    <td><img src={{product.thumbImage}} class='img-cart'></td>
+                                    <td><strong>{{product.title}}</strong></td>
+                                    <td>
+                                        <form class="form-inline">
+                                            <input id={{i}} type="number" class="form-control" placeholder={{totalAmount[i]}}  (keyup)="eventHandler(i)" >
+                                            <a href="#" class="btn btn-primary" rel="tooltip" ><i class="fa fa-trash-o"></i></a>
+                                        </form>
+                                    </td>
+                                    <td>$ {{product.price}}</td>
+                                    <td>$ {{amountXproducts[i]}}</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="6">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="4" class="text-right">Total Product</td>
+                                    <td>${{totalProduct}}</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="4" class="text-right">Total Shipping</td>
+                                    <td>${{totalShipping}}</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="4" class="text-right"><strong>Total</strong></td>
+                                    <td>${{totalFinal}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                </div>
+                <button class="btn btn-success"  (click)="clearCart()"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;Clear cart</button>
+                <!-- <a href="#" class="btn btn-primary pull-right">Next<span class="glyphicon glyphicon-chevron-right"></span></a> -->
+                <button type="button" (click)="buy()" class="btn btn-warning pull-right" >Buy!</button>
+                
+            </div>
+        </div>
+    </div>
+</mat-card-content>
+</mat-card>
+</div>
+
+
+
+<div class="overlay" id="cart-overlay"></div>

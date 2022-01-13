@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.mosddal {
+    /* detach from rest of the document */
+   position: fixed;
+
+    /* center */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    /* ensure in front of rest of page -- increase as needed */
+    z-index: 1001;
+
+    /* visual illusion of being in front -- alter to taste */
+    box-shadow: rgba(0,0,0,0.4) 10px 10px 4px;
+
+    /* visual illusion of being a solid object -- alter to taste */
+
+
+    /* visual preference of don't crowd the contents -- alter to taste */
+    padding: 10px;
+}
+
+
+h1{
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+h3{
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-right: 10px;
+}
+
+
+.mat-card{
+  background: rgb(190, 94, 228);
+}
+
+p{
+  color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+.overlay {
+    /* detach from document */
+    position: fixed;
+
+    /* ensure in front of rest of page except modal */
+    z-index: 1000;
+
+    /* fill screen to catch mice */
+    top: 0;
+    left: 0;
+    width: 9999px;
+    height: 9999px;
+
+    /* dim screen 20% -- alter to taste */
+    opacity: 0.2;
+    background-color: black;
+}
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }

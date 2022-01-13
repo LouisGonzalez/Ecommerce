@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <span class="navbar-brand">Ecommerce</span>
+
+
+
+    &nbsp;&nbsp;&nbsp;
+
+    <button type="button"  [routerLink]="['/my-list', user.id]" routerLinkActive="router-link-active" class="btn btn-warning" >My products</button>
+    &nbsp;&nbsp;&nbsp;
+
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" [routerLink]="['/profile', user.id]" routerLinkActive="router-link-active" >My profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  [routerLink]="['/products', 'add']" routerLinkActive="router-link-active" >Add a product</a>
+        </li>
+      </ul>
+    </div>
+    <button type="button" (click)="showCart()">
+      <img src="../../../../assets/images/anadir-al-carrito.png">
+    </button>
+    &nbsp;&nbsp;&nbsp;
+    <button type="button"  [routerLink]="['/products']" routerLinkActive="router-link-active" class="ver">
+      Go to the store
+    </button>
+    &nbsp;&nbsp;&nbsp;
+    <button type="button" class="btn btn-outline-danger" (click)="logOut()">
+        Logout
+    </button>
+  </div>
+</nav>

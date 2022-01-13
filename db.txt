@@ -1,0 +1,22 @@
+INSERT INTO product(title, brand,price,salePrice,thumbImage,user) VALUES ("Test title prueba 44","Acme",99.99,13.96,"https://www.forever21.com/images/1_front_330/00314834-02.jpg",1);
+INSERT INTO product(title, brand,price,salePrice,thumbImage,user) VALUES ("Gingerbread Trapper Beanie","Acme",99.99,13.96,"https://www.forever21.com/images/1_front_330/00311399-02.jpg",2);
+
+
+
+
+INSERT INTO user(username, name, lastname, email, phone, extension, password) VALUES('luis1','luis','gonzalez', 'hola@gmail.com','53113446','502','123');
+INSERT INTO user(username, name, lastname, email, phone, extension, password) VALUES('luis2','manuel','gonzalez', 'hola2@gmail.com','53113446','502','123');
+
+
+The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.
+
+
+
+
+   <div class="contact-image">
+                <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
+            </div>
+         
+
+
+#e4cf14

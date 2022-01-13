@@ -1,0 +1,20 @@
+
+<div class="mosddal">
+
+    <mat-card class="example-card">
+          <h1>{{product2.title}}</h1>
+          <h3>Price: ${{product2.price}}</h3>
+        <img mat-card-image src={{product2.thumbImage}} alt="Photo of a Shiba Inu">
+        <mat-card-content>
+          <p>
+            {{product2.description}}
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+            <button class="btn btn-success">BUY</button>
+            <button mat-button (click)="ok()">CLOSE</button>
+        </mat-card-actions>
+      </mat-card>
+  
+</div>
+<div class="overlay"></div>
