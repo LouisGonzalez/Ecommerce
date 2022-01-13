@@ -5,8 +5,12 @@ import { Bill } from '../models/bill';
 import { ProductBill } from '../models/product-bill';
 
 
-const URL_1 = 'http://localhost:8080/api/bill'
-const URL_2 = 'http://localhost:8080/api/product-bill'
+//const URL_1 = 'http://localhost:8080/api/bill'
+//const URL_2 = 'http://localhost:8080/api/product-bill'
+
+const URL_1 = 'https://ecommerce-lb.herokuapp.com/api/bill'
+const URL_2 = 'https://ecommerce-lb.herokuapp.com/api/product-bill'
+
 
 @Injectable({
   providedIn: 'root'

@@ -3,7 +3,10 @@ import { catchError, map, Observable, throwError } from 'rxjs';
 import { Product } from '../models/product';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 
-const PRODUCTS_URL = 'http://localhost:8080/api/product'
+//const PRODUCTS_URL = 'http://localhost:8080/api/product'
+
+const PRODUCTS_URL = 'https://ecommerce-lb.herokuapp.com/api/product'
+
 
 @Injectable({
   providedIn: 'root'
