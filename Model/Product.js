@@ -31,7 +31,7 @@ module.exports = function(sequelize, DataTypes){
             allowNull: false
         },
         thumbImage: {
-            type: DataTypes.CHAR(150),
+            type: DataTypes.TEXT,
         }
     }, {
         sequelize, 

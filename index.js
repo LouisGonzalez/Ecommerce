@@ -14,9 +14,9 @@ app.get('/', function(req, res){
 });
 
 //Aqui van las configuraciones CORS
-const corsOptions = {origin: "http://localhost:8080/"}
+const corsOptions = {origin: "https://ecommerce-lb.herokuapp.com/"}
 app.use(cors({
-    origin: "http://localhost:8080/",
+    origin: "https://ecommerce-lb.herokuapp.com/",
     credentials: true
 }));
 //Fin configuraciones CORS
