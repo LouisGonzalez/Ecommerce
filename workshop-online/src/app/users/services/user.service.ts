@@ -32,8 +32,9 @@ export class UserService {
 
   login(username: string, password: string): Observable<any> {
     let body = { username: username, password: password }
+
     let a = this.httpClient.post(`${URL}/login`, body);
-    console.log('asdfasdf,  ',a);
+    console.log('asdfasdf,  ',a, '  ',URL);
     return a;
   }
 
