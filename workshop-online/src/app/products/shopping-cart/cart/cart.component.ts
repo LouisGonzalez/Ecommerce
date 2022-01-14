@@ -75,7 +75,7 @@ export class CartComponent implements OnInit {
         })
       }
       this.report = {
-        type: 'Compra de productos',
+        type: 'Inicio de sesion',
         user: this.user.username,
         date: this.date,
         hour: this.hourMinute,

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="75F8D322-51C2-04CE-8B4F-D6D2202D1761" name="ProductBill">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-13 22:27:23 UTC</createdTime>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="937B24DF-FA3C-DA19-CF39-C6AACD82F5DB">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-13 22:29:31 UTC</createdTime>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idBill" id="D7B72378-58F6-289E-9825-6FC3FD700294">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-13 22:29:31 UTC</createdTime>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idProduct" id="B785E405-005D-802E-50A6-3BE9B10EE050">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-13 22:29:31 UTC</createdTime>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="amount" id="3E5C4979-6F57-9DA2-2D60-D4557C3D5B88">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-13 22:29:31 UTC</createdTime>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="9C0AA25A-3C24-4A7D-E7C1-71FF56A2C631">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-13 22:29:50 UTC</createdTime>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="E8BB85E3-CEDB-726D-338B-2A7817CB3975">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-13 22:30:03 UTC</createdTime>
+<generatorID>E0B26E29-38F0-D02B-0E38-36AE44804A5E</generatorID>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<referedAttribute>9AF4B06F-E0C3-4838-D890-FB2A21C69D7E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03BC94F3-6CE5-C938-783D-7D8AE9227344" name="ProductBill PK">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-13 22:29:37 UTC</createdTime>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>937B24DF-FA3C-DA19-CF39-C6AACD82F5DB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

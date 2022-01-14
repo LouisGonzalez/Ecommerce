@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B0A8EF5-10B6-8451-B247-41BCC8963CA3" name="Bill">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-13 22:27:15 UTC</createdTime>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="9AF4B06F-E0C3-4838-D890-FB2A21C69D7E">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-13 22:28:26 UTC</createdTime>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user" id="989908A7-C9EF-FC63-2978-101C102B1517">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-13 22:28:26 UTC</createdTime>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="subtotal" id="A3E9834D-99B2-B5C7-5495-4962F78067C4">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-13 22:28:27 UTC</createdTime>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="shipping" id="798A6005-4AD0-60E4-631F-B23852BD367B">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-13 22:28:27 UTC</createdTime>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="18AE8E85-1EC9-9CFA-7C3D-F7B8E8F36C29">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-13 22:28:45 UTC</createdTime>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="4AC22412-36D7-5ACA-3188-2C47E17BCA8B">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-13 22:28:46 UTC</createdTime>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="A79727B4-A16B-987A-A859-9DB546115DCB">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-13 22:29:08 UTC</createdTime>
+<generatorID>DC36DC2A-7D9F-1B2A-11D0-75187DA5701B</generatorID>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E911EF21-F707-635C-AEB0-4A202F0D4AAF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="38F8087E-F3B4-4BC1-4D55-86DE76E41BAC" name="Bill PK">
+<createdBy>Luis</createdBy>
+<createdTime>2022-01-13 22:28:30 UTC</createdTime>
+<ownerDesignName>modelEcommerce</ownerDesignName>
+<engineerTo>
+<item key="7EF7DB98-82CD-DF83-B57C-401FBDCCC1B8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9AF4B06F-E0C3-4838-D890-FB2A21C69D7E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
